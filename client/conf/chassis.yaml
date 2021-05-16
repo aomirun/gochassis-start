@@ -1,0 +1,7 @@
+---
+servicecomb:
+  registry:
+      address: http://service-center:30100
+  protocols:
+    rest:
+      listenAddress: 172.27.0.102:2002

@@ -1,0 +1,6 @@
+servicecomb:
+  registry:
+      address: http://service-center:30100 
+  protocols: # what kind of server you want to launch
+    rest: #launch a http server
+      listenAddress: 172.27.0.101:2002
