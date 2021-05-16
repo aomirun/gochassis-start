@@ -57,3 +57,7 @@ $ docker-compose up -d
 ```
 
 访问本地Web端口 http://127.0.0.1:2002/hi
+```sh
+$ curl http://127.0.0.1:2002/hi
+hello. go chassis
+```
