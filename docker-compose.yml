@@ -20,7 +20,7 @@ services:
     environment:
       SC_ADDRESS: "service-center"
     ports:
-      - "8080:8080"
+      - "2002:2002"
     volumes:
       - /etc/localtime:/etc/localtime
       - ./build/client/conf/chassis.yaml:/data/conf/chassis.yaml
