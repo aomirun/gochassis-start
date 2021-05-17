@@ -1,6 +1,10 @@
 BUILD_DIR := ./build
 SERVICENAME := hello
 
+.PHONE: pro
+pro:
+	protoc --gogofaster_out=. ./proto/hello/hello.proto
+
 .PHONE: bd
 bd:
 	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build  -o $(BUILD_DIR)/server/server ./server/*.go
